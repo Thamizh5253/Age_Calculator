@@ -2,6 +2,10 @@
 
 A simple web application to calculate age based on the provided birthdate.
 
+## Live Demo
+
+Check out the live demo: [Age Calculator](https://age-calculator-iota-sage.vercel.app/)
+
 ## Features
 
 - **User-Friendly Interface:** Easily input your birthdate and get your age calculated.
@@ -19,4 +23,4 @@ A simple web application to calculate age based on the provided birthdate.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/thamizh5253/Age_Calculator.git
+   git clone https://github.com/your-username/age-calculator.git
