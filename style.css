@@ -1,0 +1,84 @@
+.con {
+  border: 1px solid white;
+  background: rgba(243, 239, 239, 0.078);
+  border-radius: 8px;
+  width: 400px;
+  height: 550px;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  backdrop-filter: blur(20px) brightness(200%);
+  align-items: center;
+}
+.head {
+  margin-top: 40px;
+  font-size: 30px;
+  color: white;
+}
+input {
+  width: 240px;
+  height: 40px;
+  border-radius: 7px;
+  border: none; */
+   outline: none; 
+
+  border: 1px solid white;
+  color: white !important;
+  background: transparent;
+}
+form{
+  width:100%;
+}
+label {
+  text-align: left;
+  color: white;
+  font-size: 25px;
+}
+.input {
+  margin-top: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  /* align-items: center; */
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://images.unsplash.com/photo-1550236520-7050f3582da0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80");
+  background-size: cover;
+  background-position: center;
+}
+.data {
+  margin-top: 20px;
+  color: #C59E16;
+  font-size: 23px;
+  font-style: bold;
+}
+.submit {
+  margin-top: 40px;
+  margin-left: -118px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.btn {
+ 
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  color: black;
+  margin-left:120px;
+  width:60%;
+  border-radius:8px;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:14px;
+}

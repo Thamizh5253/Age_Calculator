@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGE CALCULATOR</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="con">
+      <h2 class="head">AGE CALCULATOR</h2>
+
+      <div class="input">
+        <label for="">Enter Your DOB:</label>
+        <br />
+        <input
+          id="datepicker"
+          name="datepicker"
+          placeholder="Enter Your DOB"
+          type="date"
+          required
+        />
+      </div>
+      <div class="submit">
+        <button onclick="getYear()" class="btn">Submit</button>
+      </div>
+      <div class="data">
+        <div id="year"></div>
+        <div id="month"></div>
+        <div id="day"></div>
+        <div id="hour"></div>
+        <div id="min"></div>
+        <div id="sec"></div>
+      </div>
+    </div>
+  </body>
+</html>
