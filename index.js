@@ -26,8 +26,13 @@ function getYear() {
     co++;
   }
   co--;
-
-  var mon = y * 12 + month + Math.abs(umonth - 12);
+if (y === 0) {
+    var mon = month - Math.abs(umonth);
+    console.log(umonth);
+  } else {
+    var mon = y * 12 + month + Math.abs(umonth - 12);
+  }
+  // var mon = y * 12 + month + Math.abs(umonth - 12);
   // const dob = new Date(dobInput);
 
   // Calculate the difference in milliseconds
